@@ -1,16 +1,3 @@
-import os
-import requests
-from colorama import Fore
-from bs4 import BeautifulSoup
-
-
-print(f"""{Fore.BLUE}
-     __        _   _   ___ _            _  __   _   _       ___ __  
- )_)  )   / ) / _  )_ /_)    __    / ` )_) /_) / ` )_/  )_  )_) 
-/__) (__ (_/ (__/ (  / /          (_. / \ / / (_. /  ) (__ / \  
-                         BY      DarkBlud                               
-""")
-
 try:
     import os 
     import requests
@@ -22,6 +9,13 @@ except ModuleNotFoundError:
         os.system("pip install bs4 colorama requests")
     except KeyError as e:
         print(f"Error : \n {e}")
+
+print(f"""{Fore.BLUE}
+     __        _   _   ___ _            _  __   _   _       ___ __  
+ )_)  )   / ) / _  )_ /_)    __    / ` )_) /_) / ` )_/  )_  )_) 
+/__) (__ (_/ (__/ (  / /          (_. / \ / / (_. /  ) (__ / \  
+                         BY      DarkBlud                               
+""")
 
 url = "https://www.blogfa.com/desktop/login.aspx"
 headers = {
