@@ -19,7 +19,7 @@ A python tool for cracking Blogfa accounts with combo
   2. put your combo list in same directory of script ( **Combo must be like this username:password** )
   3. install req libraries by ``` pip install -r requirements.txt ```
   4. run program by ``` python blogfachecker.py ```
-  5. choose 1 for check from your own combo list or choose 2 for default combo.txt file next to programm
+  5. choose 1 for check from your own combo list or choose 2 for default combo.txt file next to program
 -------------------
 **Author : DarkBlud** 
 **Telgram Channel : @sigmahack**
