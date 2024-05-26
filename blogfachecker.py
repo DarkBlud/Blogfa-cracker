@@ -38,8 +38,8 @@ headers = {
 try:
     combo_choice = input(f"{Fore.CYAN}1- Use your custom combo file \n2- Use default combo file \n : ")
     if combo_choice == '1':
-        print(f"{Fore.GREEN} Starting...")
         path = input(f"{Fore.LIGHTCYAN_EX}Enter your combo file path \n : ")
+        print(f"{Fore.GREEN} Starting...")
     elif combo_choice == '2':
         print(f"{Fore.GREEN} Starting...")
         path = "combo.txt"
